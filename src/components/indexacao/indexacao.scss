@@ -1,0 +1,40 @@
+.buttons-index {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  overflow: hidden;
+}
+
+.btn-escolha-index {
+  background: #fff;
+  border: 1px solid black;
+  padding: 20px 10px;
+  border-radius: 10px;
+  width: 33.33333%;
+  transition: 0.3s all;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.btn-escolha-index:first-child {
+  border-radius: 10px 0px 0px 10px;
+}
+
+.btn-escolha-index:nth-child(2) {
+  border-radius: 0;
+}
+
+.btn-escolha-index:last-child {
+  border-radius: 0px 10px 10px 0px;
+}
+
+.btn-escolha-index:hover {
+  background: #dcdee0;
+}
+
+#certPre,
+#certPos,
+#certFix {
+  display: none;
+}

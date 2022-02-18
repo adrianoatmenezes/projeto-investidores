@@ -1,0 +1,53 @@
+//Config grid
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  align-content: center;
+  justify-content: center;
+  gap: 30px;
+}
+
+//Config principais
+
+#res {
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.card-itens {
+  background: #f4f4f4;
+  text-align: center;
+  box-shadow: 0 0 10px #2125295b;
+  border-radius: 3px;
+  width: 100%;
+  padding: 5px;
+  .titulo-card {
+    font-size: 1rem;
+  }
+
+  .values {
+    margin: 0;
+    margin-top: 20px;
+    word-wrap: break-word;
+    position: relative;
+    bottom: 0;
+  }
+}
+
+.total:last-child {
+  color: #16a800;
+  font-weight: 600;
+}
+
+.simulacao {
+  margin-bottom: 50px;
+}
+
+@media (max-width: 767px) {
+  .simulacao {
+    position: relative;
+    bottom: 0;
+    margin: 20px 0;
+  }
+}
