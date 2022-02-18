@@ -88,8 +88,6 @@ function Validacao (mensagem, props) {
   } else {
     document.getElementById('btnGetApi').setAttribute('disabled', 'disabled')
   }
-
-  console.log(props.prazo > 10)
 }
 
 export default Validacao
